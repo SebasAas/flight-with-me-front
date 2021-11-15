@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Flights} />
-        <Route exact path="/#/dashboard" component={Dashboard} />
+        <Route exact path="/dashboard" component={Dashboard} />
       </Switch>
       {/* <Flights /> */}
       <Footer />
