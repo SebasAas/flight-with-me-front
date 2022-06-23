@@ -1,4 +1,4 @@
-# flight-with-me-frontend
+# Flight with Me Frontend
 
 ## Getting Started
 
