@@ -60,7 +60,7 @@ function Dashboard() {
   const handleDeleteFlight = (id) => {
     if (confirm('¿Esta seguro que desea eliminar el registro')) {
       async function deleteFlightById(id) {
-        let response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/flights/${id}`, {
+        let response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/flight/${id}`, {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json'

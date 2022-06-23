@@ -58,7 +58,7 @@ const Modal = props => {
         }
 
         async function updateFlightById() {
-          let response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/flights/${flightID}`, {
+          let response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/flight/${flightID}`, {
             method: 'PUT',
             headers: {
               'Content-Type': 'application/json'
@@ -91,7 +91,7 @@ const Modal = props => {
       console.log(data)
 
       async function addFlight() {
-        let response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/flights`, {
+        let response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/flight`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
