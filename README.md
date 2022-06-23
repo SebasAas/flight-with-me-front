@@ -26,6 +26,10 @@ To build in production mode
 npm build
 ```
 
+### URL
+
+localhost:3000
+
 ### Link Preview
 
 ![Preview](public/flight-with-me-preview.mkv)
